@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Explichit_Intent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="20dp"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="What is Explichit Intent??"
+        android:textSize="30sp"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginBottom="20dp"
+        android:text="Explicit intents specify which application will satisfy the intent, by supplying either the target app's package name or a fully-qualified component class name" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Example :"
+        android:textSize="25sp"/>
+
+    <RadioButton
+        android:id="@+id/radioButton5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Passing Value"
+        android:textSize="20sp"/>
+    <RadioButton
+        android:id="@+id/radioButton6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Using Another Application"
+        android:textSize="20sp"/>
+</LinearLayout>
